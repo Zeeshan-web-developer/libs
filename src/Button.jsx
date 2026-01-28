@@ -24,7 +24,7 @@ function Button({ title, onClick, variant = 'primary' }) {
       style={{...styles.button, ...styles[variant]}}
       onClick={onClick}
     >
-      this is coming form git
+     
       {title}
     </button>
   );
